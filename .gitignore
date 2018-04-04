@@ -1,0 +1,5 @@
+/target/
+/OSMapMaker.iml
+/logs\SeleniumLogs.log
+/.idea/
+./idea/*
