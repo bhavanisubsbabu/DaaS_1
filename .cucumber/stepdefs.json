@@ -1,0 +1,2866 @@
+[
+  {
+    "steps": [],
+    "source": "^Adjust opacity of drawing layer$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Admin can see \"([^\"]*)\" link on the page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Admin can see \"([^\"]*)\" link$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Admin can see Admin User created \"([^\"]*)\" on the page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Admin can see Author User created \"([^\"]*)\" on the page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Admin can see that User created \"([^\"]*)\" on the page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "Admin clicks on the \"Rename_Organisation\" button",
+        "args": [
+          {
+            "offset": 21,
+            "val": "Rename_Organisation"
+          }
+        ]
+      }
+    ],
+    "source": "^Admin clicks on the \"([^\"]*)\" button$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "As a user I type username \"\u003crole\u003e\" and passowrd \"Tester1@\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "\u003crole\u003e"
+          },
+          {
+            "offset": 49,
+            "val": "Tester1@"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"\u003cuserid\u003e\" and passowrd \"\u003cpassowrd\u003e\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "\u003cuserid\u003e"
+          },
+          {
+            "offset": 51,
+            "val": "\u003cpassowrd\u003e"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"\u003cuserid\u003e\" and passowrd \"Tester1@\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "\u003cuserid\u003e"
+          },
+          {
+            "offset": 51,
+            "val": "Tester1@"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"administrator\" and passowrd \"Tester1@\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "administrator"
+          },
+          {
+            "offset": 56,
+            "val": "Tester1@"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"author\" and passowrd \"Tester1@\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "author"
+          },
+          {
+            "offset": 49,
+            "val": "Tester1@"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"mmadmin\" and passowrd \"Adminuser1\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "mmadmin"
+          },
+          {
+            "offset": 50,
+            "val": "Adminuser1"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"support\" and passowrd \"Tester1@\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "support"
+          },
+          {
+            "offset": 50,
+            "val": "Tester1@"
+          }
+        ]
+      },
+      {
+        "name": "As a user I type username \"viewer\" and passowrd \"Tester1@\" to login",
+        "args": [
+          {
+            "offset": 27,
+            "val": "viewer"
+          },
+          {
+            "offset": 49,
+            "val": "Tester1@"
+          }
+        ]
+      }
+    ],
+    "source": "^As a user I type username \"(.*?)\" and passowrd \"(.*?)\" to login$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "Click on UpdateDetails in ManageUsers page",
+        "args": []
+      }
+    ],
+    "source": "^Click on UpdateDetails in ManageUsers page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "Click on the \"UpdateBaseMap\" button on the side-bar box",
+        "args": [
+          {
+            "offset": 14,
+            "val": "UpdateBaseMap"
+          }
+        ]
+      },
+      {
+        "name": "Click on the \"create\" button on the side-bar box",
+        "args": [
+          {
+            "offset": 14,
+            "val": "create"
+          }
+        ]
+      }
+    ],
+    "source": "^Click on the \"([^\"]*)\" button on the side-bar box$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Compares the no.of users with the database for the organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^Compares the no.of users with the database$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I Add a Drawing Layer to the map without naming",
+        "args": []
+      }
+    ],
+    "source": "^I Add a Drawing Layer to the map without naming$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I Add a Drawing Layer",
+        "args": []
+      }
+    ],
+    "source": "^I Add a Drawing Layer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I Click \"private\" radio button on the Import_Pop-upbox",
+        "args": [
+          {
+            "offset": 9,
+            "val": "private"
+          }
+        ]
+      }
+    ],
+    "source": "^I Click \"([^\"]*)\" radio button on the Import_Pop-upbox$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I Should see a \"Import_Pop-upbox\"",
+        "args": [
+          {
+            "offset": 16,
+            "val": "Import_Pop-upbox"
+          }
+        ]
+      }
+    ],
+    "source": "^I Should see a \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I Should see marker clusterings on the map",
+        "args": []
+      }
+    ],
+    "source": "^I Should see marker clusterings on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I Should see radio buttons on the Pop-up box \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I add Layers to map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I add a \"Featureinfo.csv\" from Shared layer library",
+        "args": [
+          {
+            "offset": 9,
+            "val": "Featureinfo.csv"
+          }
+        ]
+      }
+    ],
+    "source": "^I add a \"(.*?)\" from Shared layer library$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I add a \"MonitoringPoints\" from private layer library",
+        "args": [
+          {
+            "offset": 9,
+            "val": "MonitoringPoints"
+          }
+        ]
+      },
+      {
+        "name": "I add a \"csv_with_postcodes.csv\" from private layer library",
+        "args": [
+          {
+            "offset": 9,
+            "val": "csv_with_postcodes.csv"
+          }
+        ]
+      }
+    ],
+    "source": "^I add a \"(.*?)\" from private layer library$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I add a marker to the map",
+        "args": []
+      }
+    ],
+    "source": "^I add a marker to the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I add a new \"\u003cFeed\u003e\" Url at Step1",
+        "args": [
+          {
+            "offset": 13,
+            "val": "\u003cFeed\u003e"
+          }
+        ]
+      }
+    ],
+    "source": "^I add a new \"([^\"]*)\" Url at Step1$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I am presented with a list of locations to pick \"ADANAC DRIVE, Hampshire County\" from:",
+        "args": [
+          {
+            "offset": 49,
+            "val": "ADANAC DRIVE, Hampshire County"
+          }
+        ]
+      },
+      {
+        "name": "I am presented with a list of locations to pick \"SO160AS\" from:",
+        "args": [
+          {
+            "offset": 49,
+            "val": "SO160AS"
+          }
+        ]
+      },
+      {
+        "name": "I am presented with a list of locations to pick \"Southampton, City of Southampton\" from:",
+        "args": [
+          {
+            "offset": 49,
+            "val": "Southampton, City of Southampton"
+          }
+        ]
+      }
+    ],
+    "source": "^I am presented with a list of locations to pick \"([^\"]*)\" from:$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I can confirm password in \"([^\"]*)\" in \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can create a \"ploygonShape\" on the \"MapLayer\" layer by clicking on the drwaing layer map",
+        "args": [
+          {
+            "offset": 16,
+            "val": "ploygonShape"
+          },
+          {
+            "offset": 38,
+            "val": "MapLayer"
+          }
+        ]
+      }
+    ],
+    "source": "^I can create a \"([^\"]*)\" on the \"([^\"]*)\" layer by clicking on the drwaing layer map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can create a MeasurementTool line on MapLayer",
+        "args": []
+      }
+    ],
+    "source": "^I can create a MeasurementTool line on MapLayer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can create a MeasurementTool polygon on MapLayer",
+        "args": []
+      }
+    ],
+    "source": "^I can create a MeasurementTool polygon on MapLayer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can create a straight \"line\" on the \"MapLayer\" layer by clicking on the drwaing layer map",
+        "args": [
+          {
+            "offset": 25,
+            "val": "line"
+          },
+          {
+            "offset": 39,
+            "val": "MapLayer"
+          }
+        ]
+      }
+    ],
+    "source": "^I can create a straight \"([^\"]*)\" on the \"([^\"]*)\" layer by clicking on the drwaing layer map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can give radius as \"300\" on the \"CircleShape_textbox\"",
+        "args": [
+          {
+            "offset": 22,
+            "val": "300"
+          },
+          {
+            "offset": 35,
+            "val": "CircleShape_textbox"
+          }
+        ]
+      },
+      {
+        "name": "I can give radius as \"400\" on the \"CircleShape_textbox\"",
+        "args": [
+          {
+            "offset": 22,
+            "val": "400"
+          },
+          {
+            "offset": 35,
+            "val": "CircleShape_textbox"
+          }
+        ]
+      },
+      {
+        "name": "I can give radius as \"500\" on the \"CircleShape_textbox\"",
+        "args": [
+          {
+            "offset": 22,
+            "val": "500"
+          },
+          {
+            "offset": 35,
+            "val": "CircleShape_textbox"
+          }
+        ]
+      }
+    ],
+    "source": "^I can give radius as \"([^\"]*)\" on the \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can search a user in manageUsers",
+        "args": []
+      }
+    ],
+    "source": "^I can search a user in manageUsers$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I can see \"([^\"]*)\" link$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I can see a \"Featureinfo.csv\" is added to the Mapview",
+        "args": [
+          {
+            "offset": 13,
+            "val": "Featureinfo.csv"
+          }
+        ]
+      },
+      {
+        "name": "I can see a \"MonitoringPoints\" is added to the Mapview",
+        "args": [
+          {
+            "offset": 13,
+            "val": "MonitoringPoints"
+          }
+        ]
+      },
+      {
+        "name": "I can see a \"csv_with_postcodes.csv\" is added to the Mapview",
+        "args": [
+          {
+            "offset": 13,
+            "val": "csv_with_postcodes.csv"
+          }
+        ]
+      }
+    ],
+    "source": "^I can see a \"([^\"]*)\" is added to the Mapview$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I change the Sectorisedcircle colours",
+        "args": []
+      }
+    ],
+    "source": "^I change the Sectorisedcircle colours$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I change the circle colours",
+        "args": []
+      }
+    ],
+    "source": "^I change the circle colours$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I change the publish status to Shared",
+        "args": []
+      }
+    ],
+    "source": "^I change the publish status to Shared$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I change the publish status to private",
+        "args": []
+      }
+    ],
+    "source": "^I change the publish status to private$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click \"C:\\ShapeFiles\\MonitoringPoints.zip\" File from my Local Machine",
+        "args": [
+          {
+            "offset": 9,
+            "val": "C:\\ShapeFiles\\MonitoringPoints.zip"
+          }
+        ]
+      }
+    ],
+    "source": "^I click \"([^\"]*)\" File from my Local Machine$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click Esc the text should not be displayed on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on \"Yes\" for password update",
+        "args": [
+          {
+            "offset": 12,
+            "val": "Yes"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on \"(.*?)\" for password update$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on \"infosymbol\" on the map control panel",
+        "args": [
+          {
+            "offset": 12,
+            "val": "infosymbol"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on \"(.*?)\" on the map control panel$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click on \"([^\"]*)\" button on the popbox box$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on \"Text Annoation\" feature on the map",
+        "args": [
+          {
+            "offset": 12,
+            "val": "Text Annoation"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on \"([^\"]*)\" feature on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on \"distancetool\" option on the map page",
+        "args": [
+          {
+            "offset": 12,
+            "val": "distancetool"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on \"([^\"]*)\" option on the map page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on drawing \"TextAnnotation\" option on the map page",
+        "args": [
+          {
+            "offset": 20,
+            "val": "TextAnnotation"
+          }
+        ]
+      },
+      {
+        "name": "I click on drawing \"line\" option on the map page",
+        "args": [
+          {
+            "offset": 20,
+            "val": "line"
+          }
+        ]
+      },
+      {
+        "name": "I click on drawing \"ploygonShape\" option on the map page",
+        "args": [
+          {
+            "offset": 20,
+            "val": "ploygonShape"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on drawing \"([^\"]*)\" option on the map page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click on the \"(.*?)\" on the pop-up box$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on the \"Import_into_the_layer_library\" button on the Import_Pop-upbox",
+        "args": [
+          {
+            "offset": 16,
+            "val": "Import_into_the_layer_library"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on the \"([^\"]*)\" button on the Import_Pop-upbox$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on the \"update\" button to update the map state",
+        "args": [
+          {
+            "offset": 16,
+            "val": "update"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on the \"([^\"]*)\" button to update the map state$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click on the \"([^\"]*)\" folder$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on the \"Import file\" link",
+        "args": [
+          {
+            "offset": 16,
+            "val": "Import file"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on the \"([^\"]*)\" link$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on the \"Layers\" on map-controls",
+        "args": [
+          {
+            "offset": 16,
+            "val": "Layers"
+          }
+        ]
+      },
+      {
+        "name": "I click on the \"Publish\" on map-controls",
+        "args": [
+          {
+            "offset": 16,
+            "val": "Publish"
+          }
+        ]
+      },
+      {
+        "name": "I click on the \"save-AS\" on map-controls",
+        "args": [
+          {
+            "offset": 16,
+            "val": "save-AS"
+          }
+        ]
+      },
+      {
+        "name": "I click on the \"saveIcon\" on map-controls",
+        "args": [
+          {
+            "offset": 16,
+            "val": "saveIcon"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on the \"([^\"]*)\" on map-controls$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click on the \"([^\"]*)\" organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click on the \"([^\"]*)\" under Resilience Direct organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I click on the \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on the Browse button to select zip folder File from my Local Machine",
+        "args": []
+      }
+    ],
+    "source": "^I click on the Browse button to select zip folder File from my Local Machine$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I click on the imported point 0 on the map",
+        "args": [
+          {
+            "offset": 30,
+            "val": "0"
+          }
+        ]
+      },
+      {
+        "name": "I click on the imported point 1 on the map",
+        "args": [
+          {
+            "offset": 30,
+            "val": "1"
+          }
+        ]
+      }
+    ],
+    "source": "^I click on the imported point (\\d+) on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I connect DataBase to delete organisation",
+        "args": []
+      }
+    ],
+    "source": "^I connect DataBase to delete organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I connect to DataBase to delete \"\u003cusername\u003e\"",
+        "args": [
+          {
+            "offset": 33,
+            "val": "\u003cusername\u003e"
+          }
+        ]
+      }
+    ],
+    "source": "^I connect to DataBase to delete \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I connect to DataBase to update \"\u003crole\u003e\"",
+        "args": [
+          {
+            "offset": 33,
+            "val": "\u003crole\u003e"
+          }
+        ]
+      },
+      {
+        "name": "I connect to DataBase to update \"administrator\"",
+        "args": [
+          {
+            "offset": 33,
+            "val": "administrator"
+          }
+        ]
+      },
+      {
+        "name": "I connect to DataBase to update \"support\"",
+        "args": [
+          {
+            "offset": 33,
+            "val": "support"
+          }
+        ]
+      }
+    ],
+    "source": "^I connect to DataBase to update \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a \"\u003crole\u003e\" user to the organisation",
+        "args": [
+          {
+            "offset": 12,
+            "val": "\u003crole\u003e"
+          }
+        ]
+      },
+      {
+        "name": "I create a \"administrator\" user to the organisation",
+        "args": [
+          {
+            "offset": 12,
+            "val": "administrator"
+          }
+        ]
+      },
+      {
+        "name": "I create a \"support\" user to the organisation",
+        "args": [
+          {
+            "offset": 12,
+            "val": "support"
+          }
+        ]
+      }
+    ],
+    "source": "^I create a \"([^\"]*)\" user to the organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a New Map from \"Gallery\"",
+        "args": [
+          {
+            "offset": 25,
+            "val": "Gallery"
+          }
+        ]
+      }
+    ],
+    "source": "^I create a New Map from \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a Organisation",
+        "args": []
+      }
+    ],
+    "source": "^I create a Organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a map and Drawing layer",
+        "args": []
+      }
+    ],
+    "source": "^I create a map and Drawing layer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a new Folder to place the layer at Step3",
+        "args": []
+      }
+    ],
+    "source": "^I create a new Folder to place the layer at Step3$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a new Map with different BaseMaps",
+        "args": []
+      }
+    ],
+    "source": "^I create a new Map with different BaseMaps$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create a new map",
+        "args": []
+      }
+    ],
+    "source": "^I create a new map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I create buffer around \"Circle\" feature",
+        "args": [
+          {
+            "offset": 24,
+            "val": "Circle"
+          }
+        ]
+      },
+      {
+        "name": "I create buffer around \"Marker\" feature",
+        "args": [
+          {
+            "offset": 24,
+            "val": "Marker"
+          }
+        ]
+      },
+      {
+        "name": "I create buffer around \"Polygon\" feature",
+        "args": [
+          {
+            "offset": 24,
+            "val": "Polygon"
+          }
+        ]
+      },
+      {
+        "name": "I create buffer around \"SectorisedCircle\" feature",
+        "args": [
+          {
+            "offset": 24,
+            "val": "SectorisedCircle"
+          }
+        ]
+      },
+      {
+        "name": "I create buffer around \"TextAnnotation\" feature",
+        "args": [
+          {
+            "offset": 24,
+            "val": "TextAnnotation"
+          }
+        ]
+      },
+      {
+        "name": "I create buffer around \"line\" feature",
+        "args": [
+          {
+            "offset": 24,
+            "val": "line"
+          }
+        ]
+      }
+    ],
+    "source": "^I create buffer around \"([^\"]*)\" feature$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I create randon Organisation in \"([^\"]*)\" field$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I delete circle from map",
+        "args": []
+      }
+    ],
+    "source": "^I delete circle from map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I delete sectorisedcircle from map",
+        "args": []
+      }
+    ],
+    "source": "^I delete sectorisedcircle from map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I draw a circle on the map",
+        "args": []
+      }
+    ],
+    "source": "^I draw a circle on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I draw a sectorised circle on the map",
+        "args": []
+      }
+    ],
+    "source": "^I draw a sectorised circle on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I enter \"Edinburgh\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "Edinburgh"
+          },
+          {
+            "offset": 24,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"London\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "London"
+          },
+          {
+            "offset": 21,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"SO160AS\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "SO160AS"
+          },
+          {
+            "offset": 22,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"South\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "South"
+          },
+          {
+            "offset": 20,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Southampton\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "Southampton"
+          },
+          {
+            "offset": 26,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"adanac drive\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "adanac drive"
+          },
+          {
+            "offset": 27,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"s0160as\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "s0160as"
+          },
+          {
+            "offset": 22,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"so16 0as\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "so16 0as"
+          },
+          {
+            "offset": 23,
+            "val": "searchfield"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"so160as\" in \"searchfield\" box",
+        "args": [
+          {
+            "offset": 9,
+            "val": "so160as"
+          },
+          {
+            "offset": 22,
+            "val": "searchfield"
+          }
+        ]
+      }
+    ],
+    "source": "^I enter \"([^\"]*)\" in \"([^\"]*)\" box$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I had DeSelected the drawing \"([^\"]*)\" option on the map page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I hit the create map button \"switchbasemap\" in the browser panel",
+        "args": [
+          {
+            "offset": 29,
+            "val": "switchbasemap"
+          }
+        ]
+      }
+    ],
+    "source": "^I hit the create map button \"([^\"]*)\" in the browser panel$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I hit the create map button \"NewMap\" in the map browser panel",
+        "args": [
+          {
+            "offset": 29,
+            "val": "NewMap"
+          }
+        ]
+      },
+      {
+        "name": "I hit the create map button \"mapfromgallery\" in the map browser panel",
+        "args": [
+          {
+            "offset": 29,
+            "val": "mapfromgallery"
+          }
+        ]
+      }
+    ],
+    "source": "^I hit the create map button \"([^\"]*)\" in the map browser panel$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I import a \"C:\\ShapeFiles\\MonitoringPoints.zip\" as private from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\MonitoringPoints.zip"
+          }
+        ]
+      },
+      {
+        "name": "I import a \"C:\\ShapeFiles\\Sectors_1km.zip\" as private from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\Sectors_1km.zip"
+          }
+        ]
+      },
+      {
+        "name": "I import a \"C:\\ShapeFiles\\csv_with_postcodes.csv\" as private from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\csv_with_postcodes.csv"
+          }
+        ]
+      }
+    ],
+    "source": "^I import a \"(.*?)\" as private from my local machine$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I import a \"C:\\ShapeFiles\\AutomationFile.csv\" as shared from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\AutomationFile.csv"
+          }
+        ]
+      },
+      {
+        "name": "I import a \"C:\\ShapeFiles\\Featureinfo.csv\" as shared from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\Featureinfo.csv"
+          }
+        ]
+      },
+      {
+        "name": "I import a \"C:\\ShapeFiles\\MonitoringPoints.zip\" as shared from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\MonitoringPoints.zip"
+          }
+        ]
+      },
+      {
+        "name": "I import a \"C:\\ShapeFiles\\Nottingham Forest Road Closures.CSV\" as shared from my local machine",
+        "args": [
+          {
+            "offset": 12,
+            "val": "C:\\ShapeFiles\\Nottingham Forest Road Closures.CSV"
+          }
+        ]
+      }
+    ],
+    "source": "^I import a \"(.*?)\" as shared from my local machine$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I import invalid ShapeFiles and see \"errormessage\":",
+        "args": [
+          {
+            "offset": 37,
+            "val": "errormessage"
+          }
+        ]
+      }
+    ],
+    "source": "^I import invalid ShapeFiles and see \"([^\"]*)\":$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I login in to application to see the map layer-controls(pointer,Identifytool,DragandDrop,Measuretool,Crosshair)",
+        "args": []
+      }
+    ],
+    "source": "^I login in to application to see the map layer-controls\\(pointer,Identifytool,DragandDrop,Measuretool,Crosshair\\)$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I logout of the application",
+        "args": []
+      }
+    ],
+    "source": "^I logout of the application$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I make sure the Feeds are Enabled",
+        "args": []
+      }
+    ],
+    "source": "^I make sure the Feeds are Enabled$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I move the feature on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I pan around the Map",
+        "args": []
+      }
+    ],
+    "source": "^I pan around the Map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I re-add a \"Featureinfo.csv\" from Shared layer library",
+        "args": [
+          {
+            "offset": 12,
+            "val": "Featureinfo.csv"
+          }
+        ]
+      }
+    ],
+    "source": "^I re-add a \"(.*?)\" from Shared layer library$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I refresh the Page",
+        "args": []
+      }
+    ],
+    "source": "^I refresh the Page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I remove DataLayer from the Map layers",
+        "args": []
+      }
+    ],
+    "source": "^I remove DataLayer from the Map layers$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I remove file from the Map layers",
+        "args": []
+      }
+    ],
+    "source": "^I remove file from the Map layers$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I rename the map",
+        "args": []
+      }
+    ],
+    "source": "^I rename the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I reoder the \"data Layer\"",
+        "args": [
+          {
+            "offset": 14,
+            "val": "data Layer"
+          }
+        ]
+      },
+      {
+        "name": "I reoder the \"drawing Layer\"",
+        "args": [
+          {
+            "offset": 14,
+            "val": "drawing Layer"
+          }
+        ]
+      }
+    ],
+    "source": "^I reoder the \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I save as \"Private\"",
+        "args": [
+          {
+            "offset": 11,
+            "val": "Private"
+          }
+        ]
+      },
+      {
+        "name": "I save as \"Shared\"",
+        "args": [
+          {
+            "offset": 11,
+            "val": "Shared"
+          }
+        ]
+      },
+      {
+        "name": "I save as \"Unpublish\"",
+        "args": [
+          {
+            "offset": 11,
+            "val": "Unpublish"
+          }
+        ]
+      }
+    ],
+    "source": "^I save as \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I save the map as shared",
+        "args": []
+      }
+    ],
+    "source": "^I save the map as shared$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I see \"([^\"]*)\" as$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I see a \"([^\"]*)\" text as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select \"Total_area\" and should see \"area_Unit\" on left hand side panel:",
+        "args": [
+          {
+            "offset": 10,
+            "val": "Total_area"
+          },
+          {
+            "offset": 38,
+            "val": "area_Unit"
+          }
+        ]
+      },
+      {
+        "name": "I select \"Total_distance\" and should see \"distance_Unit\" on left hand side panel:",
+        "args": [
+          {
+            "offset": 10,
+            "val": "Total_distance"
+          },
+          {
+            "offset": 42,
+            "val": "distance_Unit"
+          }
+        ]
+      }
+    ],
+    "source": "^I select \"([^\"]*)\" and should see \"([^\"]*)\" on left hand side panel:$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select \"Shared_radio\" button on the \"Update_map_state\" pop-upbox",
+        "args": [
+          {
+            "offset": 10,
+            "val": "Shared_radio"
+          },
+          {
+            "offset": 39,
+            "val": "Update_map_state"
+          }
+        ]
+      }
+    ],
+    "source": "^I select \"([^\"]*)\" button on the \"([^\"]*)\" pop-upbox$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select \"Leisure Map Stack with Topo\" from the select Box",
+        "args": [
+          {
+            "offset": 10,
+            "val": "Leisure Map Stack with Topo"
+          }
+        ]
+      },
+      {
+        "name": "I select \"Leisure Map Stack\" from the select Box",
+        "args": [
+          {
+            "offset": 10,
+            "val": "Leisure Map Stack"
+          }
+        ]
+      },
+      {
+        "name": "I select \"Zoom Map Stack with Topo\" from the select Box",
+        "args": [
+          {
+            "offset": 10,
+            "val": "Zoom Map Stack with Topo"
+          }
+        ]
+      }
+    ],
+    "source": "^I select \"([^\"]*)\" from the select Box$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select Add From library option",
+        "args": []
+      }
+    ],
+    "source": "^I select Add From library option$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select a \"layer\" from the list at Step2",
+        "args": [
+          {
+            "offset": 12,
+            "val": "layer"
+          }
+        ]
+      }
+    ],
+    "source": "^I select a \"([^\"]*)\" from the list at Step2$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select for \"Area_radio\" Measurement Radio Button",
+        "args": [
+          {
+            "offset": 14,
+            "val": "Area_radio"
+          }
+        ]
+      }
+    ],
+    "source": "^I select for \"([^\"]*)\" Measurement Radio Button$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I select from the list of Markers to the map",
+        "args": []
+      }
+    ],
+    "source": "^I select from the list of Markers to the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should naviagte to \"Add User\" page by default",
+        "args": [
+          {
+            "offset": 22,
+            "val": "Add User"
+          }
+        ]
+      }
+    ],
+    "source": "^I should naviagte to \"([^\"]*)\" page by default$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should not see icon-ok-sign  next to the  \"([^\"]*)\" in password changepage$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should not see the \"([^\"]*)\" text as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see  drawing tools for drawing on the map page",
+        "args": []
+      }
+    ],
+    "source": "^I should see  drawing tools for drawing on the map page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see \"ResetPop\" pop-up",
+        "args": [
+          {
+            "offset": 14,
+            "val": "ResetPop"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see \"(.*?)\" pop-up$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see \"([^\"]*)\" as a \"([^\"]*)\" on the password change page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see \"([^\"]*)\" folder$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see \"Text Annoation\" on the map",
+        "args": [
+          {
+            "offset": 14,
+            "val": "Text Annoation"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see \"([^\"]*)\" on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see \"Terminal-1\" text on the \"featureinformation\"",
+        "args": [
+          {
+            "offset": 14,
+            "val": "Terminal-1"
+          },
+          {
+            "offset": 39,
+            "val": "featureinformation"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"Terminal-5\" text on the \"featureinformation\"",
+        "args": [
+          {
+            "offset": 14,
+            "val": "Terminal-5"
+          },
+          {
+            "offset": 39,
+            "val": "featureinformation"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see \"([^\"]*)\" text on the \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see \"Evacuation point\" text on the map",
+        "args": [
+          {
+            "offset": 14,
+            "val": "Evacuation point"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see \"([^\"]*)\" text on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see \"([^\"]*)\" under Resilience Direct organisation$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see \"+AddFeed\",\"+EnableFeeds\",\"DisableFeeds\" on the page",
+        "args": [
+          {
+            "offset": 14,
+            "val": "+AddFeed"
+          },
+          {
+            "offset": 25,
+            "val": "+EnableFeeds"
+          },
+          {
+            "offset": 40,
+            "val": "DisableFeeds"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\" on the page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see Random Organisation name on the Manage Organisations page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see SaveAs map name \"Mapbrowser\"",
+        "args": [
+          {
+            "offset": 30,
+            "val": "Mapbrowser"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see SaveAs map name \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see a \"(.*?)\" pop-up on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see a \"([^\"]*)\" as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see a \"([^\"]*)\" with Map details$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see a Pop-up box \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see a drawing layer added on the left-hand side bar",
+        "args": []
+      }
+    ],
+    "source": "^I should see a drawing layer added on the left-hand side bar$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see a new layer created with test points on the map",
+        "args": []
+      }
+    ],
+    "source": "^I should see a new layer created with test points on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see a preview of the uploaded file",
+        "args": []
+      }
+    ],
+    "source": "^I should see a preview of the uploaded file$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see created organisation in Add user page",
+        "args": []
+      }
+    ],
+    "source": "^I should see created organisation in Add user page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see created organisation in manage organisations page",
+        "args": []
+      }
+    ],
+    "source": "^I should see created organisation in manage organisations page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see login error message in Resilience Direct Login page",
+        "args": []
+      }
+    ],
+    "source": "^I should see login error message in Resilience Direct Login page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see message as \"Organisation created\"",
+        "args": [
+          {
+            "offset": 25,
+            "val": "Organisation created"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see message as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see my folder as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see new \"MonitoringPointsShapefile\" layer created",
+        "args": [
+          {
+            "offset": 18,
+            "val": "MonitoringPointsShapefile"
+          }
+        ]
+      },
+      {
+        "name": "I should see new \"Shapefile\" layer created",
+        "args": [
+          {
+            "offset": 18,
+            "val": "Shapefile"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see new \"([^\"]*)\" layer created$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see random map name under the \"([^\"]*)\" Unpublished folder$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see random map name under the \"([^\"]*)\" for publish$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see random map name under the \"Mapbrowser\"",
+        "args": [
+          {
+            "offset": 40,
+            "val": "Mapbrowser"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see random map name under the \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see random organisation name",
+        "args": []
+      }
+    ],
+    "source": "^I should see random organisation name$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see randon Organisation created in the \"([^\"]*)\"  menu$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see select Box for Toggle between Maps",
+        "args": []
+      }
+    ],
+    "source": "^I should see select Box for Toggle between Maps$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see text on the \"Update_map_state\" as",
+        "args": [
+          {
+            "offset": 26,
+            "val": "Update_map_state"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see text on the \"([^\"]*)\" as$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the \"private_status\" as \"You cannot set the state to shared, as one or more layers have sharing permissions set to private\"",
+        "args": [
+          {
+            "offset": 18,
+            "val": "private_status"
+          },
+          {
+            "offset": 38,
+            "val": "You cannot set the state to shared, as one or more layers have sharing permissions set to private"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see the \"(.*?)\" as \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the \"publish_status\" as",
+        "args": [
+          {
+            "offset": 18,
+            "val": "publish_status"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see the \"([^\"]*)\" as$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the Uploaded file is Highlithed on the priew panel under shared folder",
+        "args": []
+      }
+    ],
+    "source": "^I should see the Uploaded file is Highlithed on the priew panel under shared folder$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the layers reterived at Step2",
+        "args": []
+      }
+    ],
+    "source": "^I should see the layers reterived at Step2$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I should see the list of users with username \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the map control-panel(Layers,Save,NewMap,Publish,Print) according to user role",
+        "args": []
+      }
+    ],
+    "source": "^I should see the map control-panel\\(Layers,Save,NewMap,Publish,Print\\) according to user role$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the map in \"Private\" Folder",
+        "args": [
+          {
+            "offset": 25,
+            "val": "Private"
+          }
+        ]
+      },
+      {
+        "name": "I should see the map in \"Shared\" Folder",
+        "args": [
+          {
+            "offset": 25,
+            "val": "Shared"
+          }
+        ]
+      },
+      {
+        "name": "I should see the map in \"Unpublish\" Folder",
+        "args": [
+          {
+            "offset": 25,
+            "val": "Unpublish"
+          }
+        ]
+      }
+    ],
+    "source": "^I should see the map in \"(.*?)\" Folder$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the tabs-header(Map,Data,Gallery) according to user role",
+        "args": []
+      }
+    ],
+    "source": "^I should see the tabs-header\\(Map,Data,Gallery\\) according to user role$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I try to re-create user \"\u003crole\u003e\" to the organisation:",
+        "args": [
+          {
+            "offset": 25,
+            "val": "\u003crole\u003e"
+          }
+        ]
+      }
+    ],
+    "source": "^I try to re-create user \"([^\"]*)\" to the organisation:$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I type \"([^\"]*)\" in \"([^\"]*)\" Update User Details popbox box$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I type \"Resilience Direct\" in \"organisationsearchfield\" box",
+        "args": [
+          {
+            "offset": 8,
+            "val": "Resilience Direct"
+          },
+          {
+            "offset": 31,
+            "val": "organisationsearchfield"
+          }
+        ]
+      }
+    ],
+    "source": "^I type \"([^\"]*)\" in \"([^\"]*)\" box$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I type \"Evacuation point\" on the \"MapLayer\" layer by clicking on the drwaing layer",
+        "args": [
+          {
+            "offset": 8,
+            "val": "Evacuation point"
+          },
+          {
+            "offset": 34,
+            "val": "MapLayer"
+          }
+        ]
+      },
+      {
+        "name": "I type \"Incident zone\" on the \"MapLayer\" layer by clicking on the drwaing layer",
+        "args": [
+          {
+            "offset": 8,
+            "val": "Incident zone"
+          },
+          {
+            "offset": 31,
+            "val": "MapLayer"
+          }
+        ]
+      },
+      {
+        "name": "I type \"Text Annoation\" on the \"MapLayer\" layer by clicking on the drwaing layer",
+        "args": [
+          {
+            "offset": 8,
+            "val": "Text Annoation"
+          },
+          {
+            "offset": 32,
+            "val": "MapLayer"
+          }
+        ]
+      }
+    ],
+    "source": "^I type \"([^\"]*)\" on the \"([^\"]*)\" layer by clicking on the drwaing layer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I type \"random\" organisation in \"organisationsearchfield\" box",
+        "args": [
+          {
+            "offset": 8,
+            "val": "random"
+          },
+          {
+            "offset": 33,
+            "val": "organisationsearchfield"
+          }
+        ]
+      }
+    ],
+    "source": "^I type \"([^\"]*)\" organisation in \"([^\"]*)\" box$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I type Random Organisation in \"(.*?)\" box$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^I type random map name on \"([^\"]*)\" for publish$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I update my password",
+        "args": []
+      }
+    ],
+    "source": "^I update my password$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify \"\u003cuserid\u003e\" role with DataBase",
+        "args": [
+          {
+            "offset": 10,
+            "val": "\u003cuserid\u003e"
+          }
+        ]
+      }
+    ],
+    "source": "^I verify \"(.*?)\" role with DataBase$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify Labels are turn off by default and turn ON",
+        "args": []
+      }
+    ],
+    "source": "^I verify Labels are turn off by default and turn ON$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify Labels are turned ON and Turn off again",
+        "args": []
+      }
+    ],
+    "source": "^I verify Labels are turned ON and Turn off again$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify Wether the folder is added to the view",
+        "args": []
+      }
+    ],
+    "source": "^I verify Wether the folder is added to the view$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify exisiting 2 layers on the map",
+        "args": [
+          {
+            "offset": 19,
+            "val": "2"
+          }
+        ]
+      }
+    ],
+    "source": "^I verify exisiting (\\d+) layers on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify that the zoom level is 4 and I zoom to:",
+        "args": [
+          {
+            "offset": 32,
+            "val": "4"
+          }
+        ]
+      }
+    ],
+    "source": "^I verify that the zoom level is (\\d+) and I zoom to:$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify the circle chnages on map",
+        "args": []
+      }
+    ],
+    "source": "^I verify the circle chnages on map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify the layer structure to be \"data Layer\"",
+        "args": [
+          {
+            "offset": 36,
+            "val": "data Layer"
+          }
+        ]
+      },
+      {
+        "name": "I verify the layer structure to be \"drawing Layer\"",
+        "args": [
+          {
+            "offset": 36,
+            "val": "drawing Layer"
+          }
+        ]
+      }
+    ],
+    "source": "^I verify the layer structure to be \"(.*?)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify the links present under the chevron",
+        "args": []
+      }
+    ],
+    "source": "^I verify the links present under the chevron$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify the user can see \"ResilienceDirectlogo\" on homepage",
+        "args": [
+          {
+            "offset": 27,
+            "val": "ResilienceDirectlogo"
+          }
+        ]
+      }
+    ],
+    "source": "^I verify the user can see \"([^\"]*)\" on homepage$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify user displayName with DataBase",
+        "args": []
+      }
+    ],
+    "source": "^I verify user displayName with DataBase$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I verify wether the map reendered is \"OpenLayers.Layer.OSLeisure\"",
+        "args": [
+          {
+            "offset": 38,
+            "val": "OpenLayers.Layer.OSLeisure"
+          }
+        ]
+      },
+      {
+        "name": "I verify wether the map reendered is \"OpenLayers.Layer.OSLeisureTopo\"",
+        "args": [
+          {
+            "offset": 38,
+            "val": "OpenLayers.Layer.OSLeisureTopo"
+          }
+        ]
+      },
+      {
+        "name": "I verify wether the map reendered is \"OpenLayers.Layer.OSPro\"",
+        "args": [
+          {
+            "offset": 38,
+            "val": "OpenLayers.Layer.OSPro"
+          }
+        ]
+      },
+      {
+        "name": "I verify wether the map reendered is \"OpenLayers.Layer.OSProTopo\"",
+        "args": [
+          {
+            "offset": 38,
+            "val": "OpenLayers.Layer.OSProTopo"
+          }
+        ]
+      }
+    ],
+    "source": "^I verify wether the map reendered is \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I zoom-to Extent of the layer",
+        "args": []
+      }
+    ],
+    "source": "^I zoom-to Extent of the layer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I Zoom_in and Zoom_out the Zoom-bar on the left handside",
+        "args": []
+      },
+      {
+        "name": "I see the Zoom-bar on the left handside",
+        "args": []
+      }
+    ],
+    "source": "^I(?: see | Zoom_in and Zoom_out |)the Zoom-bar on the left handside$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "Turn clustering off and Turn clustering on again",
+        "args": []
+      }
+    ],
+    "source": "^Turn clustering off and Turn clustering on again$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^User types \"([^\"]*)\" on the  \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "change the circle colours again",
+        "args": []
+      }
+    ],
+    "source": "^change the circle colours again$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "file should be greyed out",
+        "args": []
+      }
+    ],
+    "source": "^file should be greyed out$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "map should show \"437277\": as \"Eastings\" and \"115391\" as \"Northings\"",
+        "args": [
+          {
+            "offset": 17,
+            "val": "437277"
+          },
+          {
+            "offset": 30,
+            "val": "Eastings"
+          },
+          {
+            "offset": 45,
+            "val": "115391"
+          },
+          {
+            "offset": 57,
+            "val": "Northings"
+          }
+        ]
+      },
+      {
+        "name": "map should show \"437293\": as \"Eastings\" and \"115515\" as \"Northings\"",
+        "args": [
+          {
+            "offset": 17,
+            "val": "437293"
+          },
+          {
+            "offset": 30,
+            "val": "Eastings"
+          },
+          {
+            "offset": 45,
+            "val": "115515"
+          },
+          {
+            "offset": 57,
+            "val": "Northings"
+          }
+        ]
+      },
+      {
+        "name": "map should show \"442500\": as \"Eastings\" and \"113500\" as \"Northings\"",
+        "args": [
+          {
+            "offset": 17,
+            "val": "442500"
+          },
+          {
+            "offset": 30,
+            "val": "Eastings"
+          },
+          {
+            "offset": 45,
+            "val": "113500"
+          },
+          {
+            "offset": 57,
+            "val": "Northings"
+          }
+        ]
+      },
+      {
+        "name": "map should show \"50°55.16\u0027N\": as \"Lattitude\" and \"1°23.81\u0027W\" as \"Longitude\"",
+        "args": [
+          {
+            "offset": 17,
+            "val": "50°55.16\u0027N"
+          },
+          {
+            "offset": 34,
+            "val": "Lattitude"
+          },
+          {
+            "offset": 50,
+            "val": "1°23.81\u0027W"
+          },
+          {
+            "offset": 65,
+            "val": "Longitude"
+          }
+        ]
+      }
+    ],
+    "source": "^map should show \"([^\"]*)\": as \"([^\"]*)\" and \"([^\"]*)\" as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^navigates to Mapmaker \"([^\"]*)\" page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "select a \"data Layer\" in the left hand side layers",
+        "args": [
+          {
+            "offset": 10,
+            "val": "data Layer"
+          }
+        ]
+      }
+    ],
+    "source": "^select a \"(.*?)\" in the left hand side layers$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^should see \"([^\"]*)\" message on the \"([^\"]*)\" in password changepage$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the \"Drawing Layer\" should appear with \"Check-boxed\" in the sidebar-switch space as drawing layer",
+        "args": [
+          {
+            "offset": 5,
+            "val": "Drawing Layer"
+          },
+          {
+            "offset": 40,
+            "val": "Check-boxed"
+          }
+        ]
+      }
+    ],
+    "source": "^the \"(.*?)\" should appear with \"(.*?)\" in the sidebar-switch space as drawing layer$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the Sectorisedcircle is drawn with \"12\" sectors",
+        "args": [
+          {
+            "offset": 36,
+            "val": "12"
+          }
+        ]
+      }
+    ],
+    "source": "^the Sectorisedcircle is drawn with \"([^\"]*)\" sectors$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the circle is drawn on the map",
+        "args": []
+      }
+    ],
+    "source": "^the circle is drawn on the map$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the crosshair pointing at map should  show \"Eastings\" and \"Northings\"",
+        "args": [
+          {
+            "offset": 44,
+            "val": "Eastings"
+          },
+          {
+            "offset": 59,
+            "val": "Northings"
+          }
+        ]
+      }
+    ],
+    "source": "^the crosshair pointing at map should  show \"([^\"]*)\" and \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the crosshair pointing at map should  show saved \"Eastings\" and \"Northings\"",
+        "args": [
+          {
+            "offset": 50,
+            "val": "Eastings"
+          },
+          {
+            "offset": 65,
+            "val": "Northings"
+          }
+        ]
+      }
+    ],
+    "source": "^the crosshair pointing at map should  show saved \"([^\"]*)\" and \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^the drawling line is \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the grid refrence as \"SU 42500 13500\"",
+        "args": [
+          {
+            "offset": 22,
+            "val": "SU 42500 13500"
+          }
+        ]
+      }
+    ],
+    "source": "^the grid refrence as \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the search box becomes \"RED\" in colour",
+        "args": [
+          {
+            "offset": 24,
+            "val": "RED"
+          }
+        ]
+      }
+    ],
+    "source": "^the search box becomes \"([^\"]*)\" in colour$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "types orgname in \"DisplayORG\" field should see error message:",
+        "args": [
+          {
+            "offset": 18,
+            "val": "DisplayORG"
+          }
+        ]
+      }
+    ],
+    "source": "^types orgname in \"(.*?)\" field should see error message:$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "user Compares the no.of Organisations with the database",
+        "args": []
+      }
+    ],
+    "source": "^user Compares the no.of Organisations with the database$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user Selects Random organisation from \"([^\"]*)\" menu$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user can change my password in \"([^\"]*)\" in \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user can see \"([^\"]*)\" Link$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user can see a \"([^\"]*)\" on the Resilience Direct map page$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "user navigates to \"Add_organisation\" page",
+        "args": [
+          {
+            "offset": 19,
+            "val": "Add_organisation"
+          }
+        ]
+      },
+      {
+        "name": "user navigates to \"Add_user\" page",
+        "args": [
+          {
+            "offset": 19,
+            "val": "Add_user"
+          }
+        ]
+      },
+      {
+        "name": "user navigates to \"Manage_organisations\" page",
+        "args": [
+          {
+            "offset": 19,
+            "val": "Manage_organisations"
+          }
+        ]
+      }
+    ],
+    "source": "^user navigates to \"([^\"]*)\" page$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user type random Admin display name in \"([^\"]*)\" field textbox$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user type random Author display name in \"([^\"]*)\" field textbox$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user type random SupportStaff display name in \"([^\"]*)\" field textbox$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "user types \"Url\" in browser URL space",
+        "args": [
+          {
+            "offset": 12,
+            "val": "Url"
+          }
+        ]
+      }
+    ],
+    "source": "^user types \"([^\"]*)\" in browser URL space$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user types Random password in \"([^\"]*)\" field$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user types random Admin username in \"([^\"]*)\" field$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user types random Author username in \"([^\"]*)\" field$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user types random SupportStaff username in \"([^\"]*)\" field$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user types random email in \"([^\"]*)\"$",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "^user types random username in \"([^\"]*)\" field$",
+    "flags": ""
+  }
+]
